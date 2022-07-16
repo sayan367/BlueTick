@@ -143,4 +143,14 @@ nav .search-bar input [type='search']{
     color:var(--color-dark);
 
 }
-/*nav .search-bar input[type="search"]::placeholder*/
+nav.search-bar input[type="search"]::placeholder{
+    color: var(-- color-gray);
+}
+
+nav .create{
+    display:flex;
+    align-items:center;
+    gap: 2rem;
+    
+}
+
